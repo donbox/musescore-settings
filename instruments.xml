@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore>
+      <Genre id="common">
+            <name>Common</name>
+      </Genre>
+      <Genre id="popular">
+            <name>Pop/Rock</name>
+      </Genre>
+      <Genre id="jazz">
+            <name>Jazz</name>
+      </Genre>
+      <Genre id="choral">
+            <name>Choral</name>
+      </Genre>
+      <Genre id="orchestra">
+            <name>Orchestra</name>
+      </Genre>
+      <Genre id="concertband">
+            <name>Concert Band</name>
+      </Genre>
+      <Genre id="marching">
+            <name>Marching Band</name>
+      </Genre>
+      <Genre id="electronic">
+            <name>Electronic Music</name>
+      </Genre>
+      <Genre id="world">
+            <name>World Music</name>
+      </Genre>
+      <Genre id="earlymusic">
+            <name>Early Music</name>
+      </Genre>
+      <Genre id="classroom">
+            <name>Classroom</name>
+      </Genre>
+      <Family id="flutes">
+            <name>Flutes</name>
+      </Family>
+      <Family id="oboes">
+            <name>Oboes</name>
+      </Family>
+      <Family id="clarinets">
+            <name>Clarinets</name>
+      </Family>
+      <Family id="bassoons">
+            <name>Bassoons</name>
+      </Family>
+      <Family id="saxophones">
+            <name>Saxophones</name>
+      </Family>
+      <Family id="recorders">
+            <name>Recorders</name>
+      </Family>
+      <Family id="horns">
+            <name>Horns</name>
+      </Family>
+      <Family id="cornets">
+            <name>Cornets</name>
+      </Family>
+      <Family id="flugelhorns">
+            <name>Flugelhorns</name>
+      </Family>
+      <Family id="alto-horns">
+            <name>Alto Horns</name>
+      </Family>
+      <Family id="baritone-horns">
+            <name>Baritone Horns</name>
+      </Family>
+      <Family id="euphoniums">
+            <name>Euphoniums</name>
+      </Family>
+      <Family id="trumpets">
+            <name>Trumpets</name>
+      </Family>
+      <Family id="trombones">
+            <name>Trombones</name>
+      </Family>
+      <Family id="tubas">
+            <name>Tubas</name>
+      </Family>
+      <Family id="timpani">
+            <name>Timpani</name>
+      </Family>
+      <Family id="keyboard-percussion">
+            <name>Keyboard Percussion</name>
+      </Family>
+      <Family id="harps">
+            <name>Harps</name>
+      </Family>
+      <Family id="orff-percussion">
+            <name>Orff Percussion</name>
+      </Family>
+      <Family id="pitched-percussion">
+            <name>Pitched Percussion</name>
+      </Family>
+      <Family id="unpitched-metal-percussion">
+            <name>Unpitched Metal Percussion</name>
+      </Family>
+      <Family id="unpitched-wooden-percussion">
+            <name>Unpitched Wooden Percussion</name>
+      </Family>
+      <Family id="drums">
+            <name>Drums</name>
+      </Family>
+      <Family id="batterie">
+            <name>Batterie</name>
+      </Family>
+      <Family id="other-percussion">
+            <name>Other Percussion</name>
+      </Family>
+      <Family id="voices">
+            <name>Voices</name>
+      </Family>
+      <Family id="keyboards">
+            <name>Keyboards</name>
+      </Family>
+      <Family id="organs">
+            <name>Organs</name>
+      </Family>
+      <Family id="synths">
+            <name>Synths</name>
+      </Family>
+      <Family id="plucked-strings">
+            <name>Plucked Strings</name>
+      </Family>
+      <Family id="guitars">
+            <name>Guitars</name>
+      </Family>
+      <Family id="bass-guitars">
+            <name>Bass Guitars</name>
+      </Family>
+      <Family id="orchestral-strings">
+            <name>Orchestral Strings</name>
+      </Family>
+      <Family id="viols">
+            <name>Viols</name>
+      </Family>
+      <InstrumentGroup id="strings-alt-tuning">
+            <name>Strings - Alternative Tunings</name>
+            <Instrument id="guitar-steel-nst">
+                  <family>guitars</family>
+                  <longName>Acoustic Guitar (NST)</longName>
+                  <shortName>NST Guit.</shortName>
+                  <description>Acoustic Steel-strung New Standard Tuning Guitar</description>
+                  <musicXMLid>pluck.guitar.acoustic</musicXMLid>
+                  <StringData>
+                        <frets>21</frets>
+                        <string>36</string>
+                        <string>43</string>
+                        <string>50</string>
+                        <string>57</string>
+                        <string>64</string>
+                        <string>67</string>
+                  </StringData>
+                  <clef>G8vb</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>36-88</aPitchRange>
+                  <pPitchRange>36-88</pPitchRange>
+                  <singleNoteDynamics>0</singleNoteDynamics>
+                  <Channel name="open">
+                        <program value="25"/> <!--Acoustic Guitar (steel)-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <Channel name="jazz">
+                        <program value="26"/> <!--Electric Guitar (jazz)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>jazz</genre>
+                  <genre>popular</genre>
+                  <genre>classroom</genre>
+            </Instrument>
+            <Instrument id="guitar-steel-treble-clef-nst">
+                  <family>guitar</family>
+                  <trackName>Acoustic Guitar (NST, Treble Clef)</trackName>
+                  <longName>NST Guitar</longName>
+                  <shortName>NST Guit.</shortName>
+                  <description>Acoustic Steel-strung NST Guitar (Treble Clef)</description>
+                  <musicXMLid>pluck.guitar.acoustic</musicXMLid>
+                  <StringData>
+                        <frets>21</frets>
+                        <string>36</string>
+                        <string>43</string>
+                        <string>50</string>
+                        <string>57</string>
+                        <string>64</string>
+                        <string>67</string>
+                  </StringData>
+                  <transposingClef>G</transposingClef>
+                  <concertClef>G8vb</concertClef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>36-88</aPitchRange>
+                  <pPitchRange>36-88</pPitchRange>
+                  <transposeDiatonic>-7</transposeDiatonic>
+                  <transposeChromatic>-12</transposeChromatic>
+                  <singleNoteDynamics>0</singleNoteDynamics>
+                  <Channel>
+                        <program value="25"/> <!--Acoustic Guitar (steel)-->
+                  </Channel>
+            </Instrument>
+            <Instrument id="guitar-steel-nst-tablature">
+                  <family>guitars</family>
+                  <trackName>Acoustic Guitar (Tablature)</trackName>
+                  <init>guitar-steel</init>
+                  <description>Acoustic Steel Strung Guitar (Tablature)</description>
+                  <musicXMLid>pluck.guitar.acoustic</musicXMLid>
+                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>classroom</genre>
+            </Instrument>
+
+      </InstrumentGroup>
+
+</museScore>
