@@ -1,140 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore>
-      <Genre id="common">
-            <name>Common</name>
-      </Genre>
-      <Genre id="popular">
-            <name>Pop/Rock</name>
-      </Genre>
-      <Genre id="jazz">
-            <name>Jazz</name>
-      </Genre>
-      <Genre id="choral">
-            <name>Choral</name>
-      </Genre>
-      <Genre id="orchestra">
-            <name>Orchestra</name>
-      </Genre>
-      <Genre id="concertband">
-            <name>Concert Band</name>
-      </Genre>
-      <Genre id="marching">
-            <name>Marching Band</name>
-      </Genre>
-      <Genre id="electronic">
-            <name>Electronic Music</name>
-      </Genre>
-      <Genre id="world">
-            <name>World Music</name>
-      </Genre>
-      <Genre id="earlymusic">
-            <name>Early Music</name>
-      </Genre>
-      <Genre id="classroom">
-            <name>Classroom</name>
-      </Genre>
-      <Family id="flutes">
-            <name>Flutes</name>
-      </Family>
-      <Family id="oboes">
-            <name>Oboes</name>
-      </Family>
-      <Family id="clarinets">
-            <name>Clarinets</name>
-      </Family>
-      <Family id="bassoons">
-            <name>Bassoons</name>
-      </Family>
-      <Family id="saxophones">
-            <name>Saxophones</name>
-      </Family>
-      <Family id="recorders">
-            <name>Recorders</name>
-      </Family>
-      <Family id="horns">
-            <name>Horns</name>
-      </Family>
-      <Family id="cornets">
-            <name>Cornets</name>
-      </Family>
-      <Family id="flugelhorns">
-            <name>Flugelhorns</name>
-      </Family>
-      <Family id="alto-horns">
-            <name>Alto Horns</name>
-      </Family>
-      <Family id="baritone-horns">
-            <name>Baritone Horns</name>
-      </Family>
-      <Family id="euphoniums">
-            <name>Euphoniums</name>
-      </Family>
-      <Family id="trumpets">
-            <name>Trumpets</name>
-      </Family>
-      <Family id="trombones">
-            <name>Trombones</name>
-      </Family>
-      <Family id="tubas">
-            <name>Tubas</name>
-      </Family>
-      <Family id="timpani">
-            <name>Timpani</name>
-      </Family>
-      <Family id="keyboard-percussion">
-            <name>Keyboard Percussion</name>
-      </Family>
-      <Family id="harps">
-            <name>Harps</name>
-      </Family>
-      <Family id="orff-percussion">
-            <name>Orff Percussion</name>
-      </Family>
-      <Family id="pitched-percussion">
-            <name>Pitched Percussion</name>
-      </Family>
-      <Family id="unpitched-metal-percussion">
-            <name>Unpitched Metal Percussion</name>
-      </Family>
-      <Family id="unpitched-wooden-percussion">
-            <name>Unpitched Wooden Percussion</name>
-      </Family>
-      <Family id="drums">
-            <name>Drums</name>
-      </Family>
-      <Family id="batterie">
-            <name>Batterie</name>
-      </Family>
-      <Family id="other-percussion">
-            <name>Other Percussion</name>
-      </Family>
-      <Family id="voices">
-            <name>Voices</name>
-      </Family>
-      <Family id="keyboards">
-            <name>Keyboards</name>
-      </Family>
-      <Family id="organs">
-            <name>Organs</name>
-      </Family>
-      <Family id="synths">
-            <name>Synths</name>
-      </Family>
-      <Family id="plucked-strings">
-            <name>Plucked Strings</name>
-      </Family>
-      <Family id="guitars">
-            <name>Guitars</name>
-      </Family>
-      <Family id="bass-guitars">
-            <name>Bass Guitars</name>
-      </Family>
-      <Family id="orchestral-strings">
-            <name>Orchestral Strings</name>
-      </Family>
-      <Family id="viols">
-            <name>Viols</name>
-      </Family>
       <InstrumentGroup id="strings-alt-tuning">
             <name>Strings - Alternative Tunings</name>
             <Instrument id="guitar-steel-nst">
@@ -210,7 +75,111 @@
                   <genre>common</genre>
                   <genre>classroom</genre>
             </Instrument>
+            <Instrument id="stick-left-10-string">
+                  <family>bass-guitars</family>
+                  <longName>Stick Bottom</longName>
+                  <shortName>Stick Bottom</shortName>
+                  <description>Chapman Stick Bottom (10-string Classic)</description>
+                  <musicXMLid>pluck.bass</musicXMLid>
+                  <StringData>
+                        <frets>27</frets>
+                        <string>36</string>
+                        <string>43</string>
+                        <string>50</string>
+                        <string>57</string>
+                        <string>64</string>
+                  </StringData>
+                  <transposingClef>F</transposingClef>
+                  <concertClef>F8vb</concertClef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>24-79</aPitchRange>
+                  <pPitchRange>24-79</pPitchRange>
+                  <transposeDiatonic>-7</transposeDiatonic>
+                  <transposeChromatic>-12</transposeChromatic>
+                  <singleNoteDynamics>0</singleNoteDynamics>
+                  <Channel>
+                        <program value="33"/> <!--Electric Bass (finger)-->
+                  </Channel>
+                  <Channel name="pick">
+                        <program value="34"/> <!--Electric Bass (pick)-->
+                  </Channel>
+                  <Channel name="slap">
+                        <program value="36"/> <!--Slap Bass 1-->
+                  </Channel>
+                  <Channel name="pop">
+                        <program value="37"/> <!--Slap Bass 2-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>jazz</genre>
+                  <genre>popular</genre>
+                  <genre>marching</genre>
+            </Instrument>
+            <Instrument id="stick-left-10-string-tablature">
+                  <family>bass-guitars</family>
+                  <trackName>Stick Bottom (Tablature)</trackName>
+                  <init>stick-left-10-string</init>
+                  <description>Chapman Stick Bottom (10-string classic, Tablature)</description>
+                  <musicXMLid>pluck.bass</musicXMLid>
+                  <stafftype staffTypePreset="tab5StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>popular</genre>
+            </Instrument>
+                  <Instrument id="stick-right-10-string">
+                  <family>guitars</family>
+                  <longName>Stick Top</longName>
+                  <shortName>Stick T</shortName>
+                  <description>Chapman Stick Top (10-string Classic)</description>
+                  <musicXMLid>pluck.guitar.electric</musicXMLid>
+                  <StringData>
+                        <frets>27</frets>
+                        <string>42</string>
+                        <string>47</string>
+                        <string>52</string>
+                        <string>57</string>
+                        <string>62</string>
+                  </StringData>
+                  <clef>G8vb</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>42-89</aPitchRange>
+                  <pPitchRange>42-89</pPitchRange>
+                  <singleNoteDynamics>0</singleNoteDynamics>
+                  <Channel name="jazz">
+                        <program value="26"/> <!--Electric Guitar (jazz)-->
+                  </Channel>
+                  <Channel name="open">
+                        <program value="27"/> <!--Electric Guitar (clean)-->
+                  </Channel>
+                  <Channel name="harmonics">
+                        <program value="31"/> <!--Guitar Harmonics-->
+                  </Channel>
+                  <Channel name="distortion">
+                        <program value="30"/> <!--Distortion Guitar-->
+                  </Channel>
+                  <Channel name="overdriven">
+                        <program value="29"/> <!--Overdriven Guitar-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <Channel name="jazz">
+                        <program value="26"/> <!--Electric Guitar (jazz)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>jazz</genre>
+                  <genre>popular</genre>
+                  <genre>marching</genre>
+            </Instrument>
 
+            <Instrument id="stick-right-10-string-tablature">
+                  <trackName>Stick Top (Tablature)</trackName>
+                  <init>stick-right-10-string</init>
+                  <description>Chapman Stick Top (10-string Classic, Tablature)</description>
+                  <stafftype staffTypePreset="tab5StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>popular</genre>
+            </Instrument>
       </InstrumentGroup>
 
 </museScore>
