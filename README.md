@@ -12,5 +12,5 @@ My [instruments.xml](instruments.xml) file adds one new group to the instruments
 
 Musescore allows you to augment the default instruments.xml file with a custom one that adds new instruments.  This file is meant to be used for the latter.
 
-To configure Musescore to pick up this file, download or `git clone` it to your machine and follow the instructions [here](https://musescore.org/en/handbook/developers-handbook/references/instrumentsxml-documentation#instruments.xml_files) to have MuseScore pick it up.
+To configure Musescore to pick up this file, download it from your browser (or simply use `git clone` like me) and follow the instructions [here](https://musescore.org/en/handbook/developers-handbook/references/instrumentsxml-documentation#instruments.xml_files) to have MuseScore pick it up.
 
