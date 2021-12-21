@@ -357,7 +357,7 @@
                   <description>Alto Stick Bottom (Alto)</description>
                   <musicXMLid>pluck.guitar.electric</musicXMLid>
                   <StringData>
-                        <frets>27</frets>
+                        <frets>22</frets>
                         <string>36</string>
                         <string>43</string>
                         <string>50</string>
@@ -366,8 +366,8 @@
                   </StringData>
                   <clef>G8vb</clef>
                   <barlineSpan>1</barlineSpan>
-                  <aPitchRange>36-91</aPitchRange>
-                  <pPitchRange>36-91</pPitchRange>
+                  <aPitchRange>36-86</aPitchRange>
+                  <pPitchRange>36-86</pPitchRange>
                   <singleNoteDynamics>0</singleNoteDynamics>
                   <Channel name="jazz">
                         <program value="26"/> <!--Electric Guitar (jazz)-->
@@ -413,7 +413,7 @@
                   <description>Alto Stick Top (Alto)</description>
                   <musicXMLid>pluck.guitar.electric</musicXMLid>
                   <StringData>
-                        <frets>27</frets>
+                        <frets>22</frets>
                         <string>47</string>
                         <string>52</string>
                         <string>57</string>
@@ -422,8 +422,8 @@
                   </StringData>
                   <clef>G8vb</clef>
                   <barlineSpan>1</barlineSpan>
-                  <aPitchRange>47-94</aPitchRange>
-                  <pPitchRange>47-94</pPitchRange>
+                  <aPitchRange>47-89</aPitchRange>
+                  <pPitchRange>47-89</pPitchRange>
                   <singleNoteDynamics>0</singleNoteDynamics>
                   <Channel name="jazz">
                         <program value="26"/> <!--Electric Guitar (jazz)-->
@@ -457,6 +457,120 @@
                   <init>alto-stick-right</init>
                   <description>Alto Stick Top (Alto, Tablature)</description>
                   <stafftype staffTypePreset="tab5StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>popular</genre>
+            </Instrument>
+<!-- Stick Guitar -->
+            <Instrument id="stick-guitar-bottom">
+                  <family>guitars</family>
+                  <longName>Stick Guitar Bottom</longName>
+                  <shortName>SG12 B</shortName>
+                  <description>Stick Guitar Bottom (Classic SG12)</description>
+                  <musicXMLid>pluck.guitar.electric</musicXMLid>
+                  <StringData>
+                        <frets>22</frets>
+                        <string>31</string>
+                        <string>38</string>
+                        <string>45</string>
+                        <string>52</string>
+                        <string>59</string>
+                        <string>66</string>
+                  </StringData>
+                  <clef>G8vb</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>31-88</aPitchRange>
+                  <pPitchRange>31-88</pPitchRange>
+                  <singleNoteDynamics>0</singleNoteDynamics>
+                  <Channel name="jazz">
+                        <program value="26"/> <!--Electric Guitar (jazz)-->
+                  </Channel>
+                  <Channel name="open">
+                        <program value="27"/> <!--Electric Guitar (clean)-->
+                  </Channel>
+                  <Channel name="harmonics">
+                        <program value="31"/> <!--Guitar Harmonics-->
+                  </Channel>
+                  <Channel name="distortion">
+                        <program value="30"/> <!--Distortion Guitar-->
+                  </Channel>
+                  <Channel name="overdriven">
+                        <program value="29"/> <!--Overdriven Guitar-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <Channel name="jazz">
+                        <program value="26"/> <!--Electric Guitar (jazz)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>jazz</genre>
+                  <genre>popular</genre>
+                  <genre>marching</genre>
+            </Instrument>
+            <Instrument id="stick-guitar-bottom-tablature">
+                  <family>guitars</family>
+                  <trackName>Stick Guitar Bottom (Tablature)</trackName>
+                  <init>stick-guitar-bottom</init>
+                  <description>Stick Guitar Bottom (Classic SG12, Tablature)</description>
+                  <musicXMLid>pluck.guitar.electric</musicXMLid>
+                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>popular</genre>
+            </Instrument>
+            <Instrument id="stick-guitar-right">
+                  <family>guitars</family>
+                  <longName>Stick Guitar Top</longName>
+                  <shortName>SG12 T</shortName>
+                  <description>Stick Guitar Top (Classic SG12)</description>
+                  <musicXMLid>pluck.guitar.electric</musicXMLid>
+                  <StringData>
+                        <frets>22</frets>
+                        <string>44</string>
+                        <string>49</string>
+                        <string>54</string>
+                        <string>59</string>
+                        <string>64</string>
+                        <string>69</string>
+                  </StringData>
+                  <clef>G8vb</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>44-91</aPitchRange>
+                  <pPitchRange>44-91</pPitchRange>
+                  <singleNoteDynamics>0</singleNoteDynamics>
+                  <Channel name="jazz">
+                        <program value="26"/> <!--Electric Guitar (jazz)-->
+                  </Channel>
+                  <Channel name="open">
+                        <program value="27"/> <!--Electric Guitar (clean)-->
+                  </Channel>
+                  <Channel name="harmonics">
+                        <program value="31"/> <!--Guitar Harmonics-->
+                  </Channel>
+                  <Channel name="distortion">
+                        <program value="30"/> <!--Distortion Guitar-->
+                  </Channel>
+                  <Channel name="overdriven">
+                        <program value="29"/> <!--Overdriven Guitar-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <Channel name="jazz">
+                        <program value="26"/> <!--Electric Guitar (jazz)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>jazz</genre>
+                  <genre>popular</genre>
+                  <genre>marching</genre>
+            </Instrument>
+
+            <Instrument id="stick-guitar-right-tablature">
+                  <trackName>Stick Guitar Top (Tablature)</trackName>
+                  <init>stick-guitar-right</init>
+                  <description>Stick Guitar Top (Classic SG12, Tablature)</description>
+                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
                   <!--                  <clef>TAB</clef> -->
                   <genre>common</genre>
                   <genre>popular</genre>
