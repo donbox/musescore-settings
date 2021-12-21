@@ -21,8 +21,10 @@ Here's the list of supported instruments:
 - **Grand Stick Bottom** - The "bass side" of a Chapman Stick tuned in [12-string Classic](http://stick.com/instruments/tunings/12/classic_66/) tuning. 
 - **Grand Stick Top** - The "treble side" of a Chapman Stick tuned in [12-string Classic](http://stick.com/instruments/tunings/12/classic_66/) tuning.
 - **Stick Bass** - An 8-string Stick Bass tuned in [Standard Bass 4ths](http://stick.com/instruments/tunings/8/standard_4ths/) tuning. 
-- **Alto Stick Bottom** - The "bass side" of an Akti Stick tuned in [Alto](http://stick.com/instruments/tunings/alto/alto/) tuning. 
+- **Alto Stick Bottom** - The "bass side" of an Alto Stick tuned in [Alto](http://stick.com/instruments/tunings/alto/alto/) tuning. 
 - **Alto Stick Top** - The "treble side" of an Alto Stick tuned in [Alto](http://stick.com/instruments/tunings/alto/alto/) tuning.
+- **Stick Guitar Bottom** - The "bass side" of a Stick Guitar tuned in [Classic SG12](http://stick.com/instruments/tunings/sg12/classic_sg12/) tuning. 
+- **Stick Guitar Top** - The "treble side" of a Stick Guitar tuned in [Classig SG12](http://stick.com/instruments/tunings/sg12/classic_sg12/) tuning.
 
 ### Stick Tablature Notes
 Fret zero corresponds to the "X" fret in Stick tuning. On a classic 34 inch stick, this is the nut (with damper) and is unusable using standard tapping. On a newer 36 inch scale stick, this correspnds to the first usable fret for tapping. 
