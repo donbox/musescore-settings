@@ -2,6 +2,8 @@
 <museScore>
       <InstrumentGroup id="strings-alt-tuning">
             <name>Strings - Alternative Tunings</name>
+<!-- NST Acoustic -->
+
             <Instrument id="guitar-steel-nst">
                   <family>guitars</family>
                   <longName>Acoustic Guitar (NST)</longName>
@@ -75,10 +77,13 @@
                   <genre>common</genre>
                   <genre>classroom</genre>
             </Instrument>
+
+<!-- 10-string Stick -->
+
             <Instrument id="stick-left-10-string">
                   <family>bass-guitars</family>
                   <longName>Stick Bottom</longName>
-                  <shortName>Stick Bottom</shortName>
+                  <shortName>Stick B</shortName>
                   <description>Chapman Stick Bottom (10-string Classic)</description>
                   <musicXMLid>pluck.bass</musicXMLid>
                   <StringData>
@@ -180,6 +185,281 @@
                   <genre>common</genre>
                   <genre>popular</genre>
             </Instrument>
-      </InstrumentGroup>
+<!-- Grand Stick -->
+            <Instrument id="stick-left-12-string">
+                  <family>bass-guitars</family>
+                  <longName>Grand Stick Bottom</longName>
+                  <shortName>Grand B</shortName>
+                  <description>Grand Stick Bottom (12-string Classic)</description>
+                  <musicXMLid>pluck.bass</musicXMLid>
+                  <StringData>
+                        <frets>27</frets>
+                        <string>36</string>
+                        <string>43</string>
+                        <string>50</string>
+                        <string>57</string>
+                        <string>64</string>
+                        <string>71</string>
+                  </StringData>
+                  <transposingClef>F</transposingClef>
+                  <concertClef>F8vb</concertClef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>24-86</aPitchRange>
+                  <pPitchRange>24-86</pPitchRange>
+                  <transposeDiatonic>-7</transposeDiatonic>
+                  <transposeChromatic>-12</transposeChromatic>
+                  <singleNoteDynamics>0</singleNoteDynamics>
+                  <Channel>
+                        <program value="33"/> <!--Electric Bass (finger)-->
+                  </Channel>
+                  <Channel name="pick">
+                        <program value="34"/> <!--Electric Bass (pick)-->
+                  </Channel>
+                  <Channel name="slap">
+                        <program value="36"/> <!--Slap Bass 1-->
+                  </Channel>
+                  <Channel name="pop">
+                        <program value="37"/> <!--Slap Bass 2-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>jazz</genre>
+                  <genre>popular</genre>
+                  <genre>marching</genre>
+            </Instrument>
+            <Instrument id="stick-left-12-string-tablature">
+                  <family>bass-guitars</family>
+                  <trackName>Grand Stick Bottom (Tablature)</trackName>
+                  <init>stick-left-12-string</init>
+                  <description>Chapman Stick Bottom (12-string classic, Tablature)</description>
+                  <musicXMLid>pluck.bass</musicXMLid>
+                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>popular</genre>
+            </Instrument>
+            <Instrument id="stick-right-12-string">
+                  <family>guitars</family>
+                  <longName>Grand Stick Top</longName>
+                  <shortName>Grand T</shortName>
+                  <description>Grand Stick Top (12-string Classic)</description>
+                  <musicXMLid>pluck.guitar.electric</musicXMLid>
+                  <StringData>
+                        <frets>27</frets>
+                        <string>37</string>
+                        <string>42</string>
+                        <string>47</string>
+                        <string>52</string>
+                        <string>57</string>
+                        <string>62</string>
+                  </StringData>
+                  <clef>G8vb</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>37-89</aPitchRange>
+                  <pPitchRange>37-89</pPitchRange>
+                  <singleNoteDynamics>0</singleNoteDynamics>
+                  <Channel name="jazz">
+                        <program value="26"/> <!--Electric Guitar (jazz)-->
+                  </Channel>
+                  <Channel name="open">
+                        <program value="27"/> <!--Electric Guitar (clean)-->
+                  </Channel>
+                  <Channel name="harmonics">
+                        <program value="31"/> <!--Guitar Harmonics-->
+                  </Channel>
+                  <Channel name="distortion">
+                        <program value="30"/> <!--Distortion Guitar-->
+                  </Channel>
+                  <Channel name="overdriven">
+                        <program value="29"/> <!--Overdriven Guitar-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <Channel name="jazz">
+                        <program value="26"/> <!--Electric Guitar (jazz)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>jazz</genre>
+                  <genre>popular</genre>
+                  <genre>marching</genre>
+            </Instrument>
 
+            <Instrument id="stick-right-12-string-tablature">
+                  <trackName>Grand Stick Top (Tablature)</trackName>
+                  <init>stick-right-12-string</init>
+                  <description>Chapman Stick Top (12-string Classic, Tablature)</description>
+                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>popular</genre>
+            </Instrument>            
+<!-- Stick Bass-->
+            <Instrument id="stick-bass">
+                  <family>bass-guitars</family>
+                  <longName>Stick Bass</longName>
+                  <shortName>Bass</shortName>
+                  <description>Stick Bass (Standard Bass 4ths)</description>
+                  <musicXMLid>pluck.bass</musicXMLid>
+                  <StringData>
+                        <frets>27</frets>
+                        <string>35</string>
+                        <string>40</string>
+                        <string>45</string>
+                        <string>50</string>
+                        <string>55</string>
+                        <string>60</string>
+                        <string>65</string>
+                        <string>70</string>
+                  </StringData>
+                  <transposingClef>F</transposingClef>
+                  <concertClef>F8vb</concertClef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>23-85</aPitchRange>
+                  <pPitchRange>23-85</pPitchRange>
+                  <transposeDiatonic>-7</transposeDiatonic>
+                  <transposeChromatic>-12</transposeChromatic>
+                  <singleNoteDynamics>0</singleNoteDynamics>
+                  <Channel>
+                        <program value="33"/> <!--Electric Bass (finger)-->
+                  </Channel>
+                  <Channel name="pick">
+                        <program value="34"/> <!--Electric Bass (pick)-->
+                  </Channel>
+                  <Channel name="slap">
+                        <program value="36"/> <!--Slap Bass 1-->
+                  </Channel>
+                  <Channel name="pop">
+                        <program value="37"/> <!--Slap Bass 2-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>jazz</genre>
+                  <genre>popular</genre>
+                  <genre>marching</genre>
+            </Instrument>
+
+            <Instrument id="stick-bass-tablature">
+                  <family>bass-guitars</family>
+                  <trackName>Stick Bass (Tablature)</trackName>
+                  <init>stick-bass</init>
+                  <description>Stick Bass (Standard Bass 4ths, Tablature)</description>
+                  <musicXMLid>pluck.bass</musicXMLid>
+                  <stafftype staffTypePreset="tab8StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>popular</genre>
+            </Instrument>
+<!-- Alto Stick -->
+
+            <Instrument id="alto-stick-bottom">
+                  <family>guitars</family>
+                  <longName>Alto Stick Bottom</longName>
+                  <shortName>Alto B</shortName>
+                  <description>Alto Stick Bottom (Alto)</description>
+                  <musicXMLid>pluck.guitar.electric</musicXMLid>
+                  <StringData>
+                        <frets>27</frets>
+                        <string>36</string>
+                        <string>43</string>
+                        <string>50</string>
+                        <string>57</string>
+                        <string>64</string>
+                  </StringData>
+                  <clef>G8vb</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>36-91</aPitchRange>
+                  <pPitchRange>36-91</pPitchRange>
+                  <singleNoteDynamics>0</singleNoteDynamics>
+                  <Channel name="jazz">
+                        <program value="26"/> <!--Electric Guitar (jazz)-->
+                  </Channel>
+                  <Channel name="open">
+                        <program value="27"/> <!--Electric Guitar (clean)-->
+                  </Channel>
+                  <Channel name="harmonics">
+                        <program value="31"/> <!--Guitar Harmonics-->
+                  </Channel>
+                  <Channel name="distortion">
+                        <program value="30"/> <!--Distortion Guitar-->
+                  </Channel>
+                  <Channel name="overdriven">
+                        <program value="29"/> <!--Overdriven Guitar-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <Channel name="jazz">
+                        <program value="26"/> <!--Electric Guitar (jazz)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>jazz</genre>
+                  <genre>popular</genre>
+                  <genre>marching</genre>
+            </Instrument>
+            <Instrument id="alto-stick-bottom-tablature">
+                  <family>guitars</family>
+                  <trackName>Alto Stick Bottom (Tablature)</trackName>
+                  <init>alto-stick-bottom</init>
+                  <description>Alto Stick Bottom (Alto, Tablature)</description>
+                  <musicXMLid>pluck.guitar.electric</musicXMLid>
+                  <stafftype staffTypePreset="tab5StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>popular</genre>
+            </Instrument>
+            <Instrument id="alto-stick-right">
+                  <family>guitars</family>
+                  <longName>Alto Stick Top</longName>
+                  <shortName>Alto T</shortName>
+                  <description>Alto Stick Top (Alto)</description>
+                  <musicXMLid>pluck.guitar.electric</musicXMLid>
+                  <StringData>
+                        <frets>27</frets>
+                        <string>47</string>
+                        <string>52</string>
+                        <string>57</string>
+                        <string>62</string>
+                        <string>67</string>
+                  </StringData>
+                  <clef>G8vb</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>47-94</aPitchRange>
+                  <pPitchRange>47-94</pPitchRange>
+                  <singleNoteDynamics>0</singleNoteDynamics>
+                  <Channel name="jazz">
+                        <program value="26"/> <!--Electric Guitar (jazz)-->
+                  </Channel>
+                  <Channel name="open">
+                        <program value="27"/> <!--Electric Guitar (clean)-->
+                  </Channel>
+                  <Channel name="harmonics">
+                        <program value="31"/> <!--Guitar Harmonics-->
+                  </Channel>
+                  <Channel name="distortion">
+                        <program value="30"/> <!--Distortion Guitar-->
+                  </Channel>
+                  <Channel name="overdriven">
+                        <program value="29"/> <!--Overdriven Guitar-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <Channel name="jazz">
+                        <program value="26"/> <!--Electric Guitar (jazz)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>jazz</genre>
+                  <genre>popular</genre>
+                  <genre>marching</genre>
+            </Instrument>
+
+            <Instrument id="alto-stick-right-tablature">
+                  <trackName>Alto Stick Top (Tablature)</trackName>
+                  <init>alto-stick-right</init>
+                  <description>Alto Stick Top (Alto, Tablature)</description>
+                  <stafftype staffTypePreset="tab5StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>popular</genre>
+            </Instrument>
+      </InstrumentGroup>
 </museScore>

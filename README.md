@@ -8,16 +8,21 @@ MuseScore is also [open source](https://musescore.org/en/development) so if one 
 
 ## Custom Instruments
 
-My [instruments.xml](instruments.xml) file adds one new group to the instruments list (**Strings - Alternate Tuning**) that includes both [New Standard Tuning](https://en.wikipedia.org/wiki/New_standard_tuning) Guitar as well as [Chapman Stick](https://en.wikipedia.org/wiki/Chapman_Stick) configurations.
+My [instruments.xml](instruments.xml) file adds one new group to the instruments list (**Strings - Alternate Tuning**) that includes both [New Standard Tuning](https://en.wikipedia.org/wiki/New_standard_tuning) guitar as well as [Chapman Stick](https://en.wikipedia.org/wiki/Chapman_Stick) configurations.
 
 Musescore allows you to augment the default instruments.xml file with a custom one that adds new instruments.  This file is meant to be used for the latter.
 
 To configure Musescore to pick up this file, download it from your browser (or simply use `git clone` like me) and follow the instructions [here](https://musescore.org/en/handbook/developers-handbook/references/instrumentsxml-documentation#instruments.xml_files) to have MuseScore pick it up.
 
 Here's the list of supported instruments:
-- **Acoustic Guitar (NST)** - A 21-fret acoustic guitar tuned in new standard tuning. Note that many guitars only have 20 frets, however, some of the repertoire includes a high E, which is sometimes played by using the extra fingerboard sans fret.
+- **Acoustic Guitar (NST)** - A 21-fret acoustic guitar tuned in [New Standard Tuning](https://en.wikipedia.org/wiki/New_standard_tuning). Note that many guitars only have 20 frets, however, some of the repertoire includes a high E, which is sometimes played by using the extra fingerboard sans fret or as a harmonic.
 - **Chapman Stick Bottom** - The "bass side" of a Chapman Stick tuned in [10-string Classic](http://stick.com/instruments/tunings/10/classic/) tuning. 
 - **Chapman Stick Top** - The "treble side" of a Chapman Stick tuned in [10-string Classic](http://stick.com/instruments/tunings/10/classic/) tuning.
+- **Grand Stick Bottom** - The "bass side" of a Chapman Stick tuned in [12-string Classic](http://stick.com/instruments/tunings/12/classic_66/) tuning. 
+- **Grand Stick Top** - The "treble side" of a Chapman Stick tuned in [12-string Classic](http://stick.com/instruments/tunings/12/classic_66/) tuning.
+- **Stick Bass** - An 8-string Stick Bass tuned in [Standard Bass 4ths](http://stick.com/instruments/tunings/8/standard_4ths/) tuning. 
+- **Alto Stick Bottom** - The "bass side" of an Akti Stick tuned in [Alto](http://stick.com/instruments/tunings/alto/alto/) tuning. 
+- **Alto Stick Top** - The "treble side" of an Alto Stick tuned in [Alto](http://stick.com/instruments/tunings/alto/alto/) tuning.
 
 ### Stick Tablature Notes
 Fret zero corresponds to the "X" fret in Stick tuning. On a classic 34 inch stick, this is the nut (with damper) and is unusable using standard tapping. On a newer 36 inch scale stick, this correspnds to the first usable fret for tapping. 
