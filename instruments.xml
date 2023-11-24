@@ -275,18 +275,7 @@
                   <genre>popular</genre>
                   <genre>marching</genre>
             </Instrument>
-            <Instrument id="stick-bottom-10-string-tablature">
-                  <family>bass-guitars</family>
-                  <trackName>Stick Bottom (Tablature)</trackName>
-                  <init>stick-bottom-10-string</init>
-                  <description>Chapman Stick Bottom (10-string classic, Tablature)</description>
-                  <musicXMLid>pluck.bass</musicXMLid>
-                  <stafftype staffTypePreset="tab5StrCommon">tablature</stafftype>
-                  <!--                  <clef>TAB</clef> -->
-                  <genre>common</genre>
-                  <genre>popular</genre>
-            </Instrument>
-                  <Instrument id="stick-top-10-string">
+                <Instrument id="stick-top-10-string">
                   <family>guitars</family>
                   <longName>Stick Top</longName>
                   <shortName>Stick T</shortName>
@@ -332,15 +321,6 @@
                   <genre>marching</genre>
             </Instrument>
 
-            <Instrument id="stick-top-10-string-tablature">
-                  <trackName>Stick Top (Tablature)</trackName>
-                  <init>stick-top-10-string</init>
-                  <description>Chapman Stick Top (10-string Classic, Tablature)</description>
-                  <stafftype staffTypePreset="tab5StrCommon">tablature</stafftype>
-                  <!--                  <clef>TAB</clef> -->
-                  <genre>common</genre>
-                  <genre>popular</genre>
-            </Instrument>
 <!-- Grand Stick -->
             <Instrument id="stick-bottom-12-string">
                   <family>bass-guitars</family>
@@ -381,17 +361,6 @@
                   <genre>jazz</genre>
                   <genre>popular</genre>
                   <genre>marching</genre>
-            </Instrument>
-            <Instrument id="stick-bottom-12-string-tablature">
-                  <family>bass-guitars</family>
-                  <trackName>Grand Stick Bottom (Tablature)</trackName>
-                  <init>stick-bottom-12-string</init>
-                  <description>Chapman Stick Bottom (12-string classic, Tablature)</description>
-                  <musicXMLid>pluck.bass</musicXMLid>
-                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
-                  <!--                  <clef>TAB</clef> -->
-                  <genre>common</genre>
-                  <genre>popular</genre>
             </Instrument>
             <Instrument id="stick-top-12-string">
                   <family>guitars</family>
@@ -440,15 +409,6 @@
                   <genre>marching</genre>
             </Instrument>
 
-            <Instrument id="stick-top-12-string-tablature">
-                  <trackName>Grand Stick Top (Tablature)</trackName>
-                  <init>stick-top-12-string</init>
-                  <description>Chapman Stick Top (12-string Classic, Tablature)</description>
-                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
-                  <!--                  <clef>TAB</clef> -->
-                  <genre>common</genre>
-                  <genre>popular</genre>
-            </Instrument>            
 <!-- Stick Bass-->
             <Instrument id="stick-bass">
                   <family>bass-guitars</family>
@@ -493,17 +453,6 @@
                   <genre>marching</genre>
             </Instrument>
 
-            <Instrument id="stick-bass-tablature">
-                  <family>bass-guitars</family>
-                  <trackName>Stick Bass (Tablature)</trackName>
-                  <init>stick-bass</init>
-                  <description>Stick Bass (Standard Bass 4ths, Tablature)</description>
-                  <musicXMLid>pluck.bass</musicXMLid>
-                  <stafftype staffTypePreset="tab8StrCommon">tablature</stafftype>
-                  <!--                  <clef>TAB</clef> -->
-                  <genre>common</genre>
-                  <genre>popular</genre>
-            </Instrument>
 <!-- Alto Stick -->
 
             <Instrument id="alto-stick-bottom">
@@ -551,17 +500,6 @@
                   <genre>popular</genre>
                   <genre>marching</genre>
             </Instrument>
-            <Instrument id="alto-stick-bottom-tablature">
-                  <family>guitars</family>
-                  <trackName>Alto Stick Bottom (Tablature)</trackName>
-                  <init>alto-stick-bottom</init>
-                  <description>Alto Stick Bottom (Alto, Tablature)</description>
-                  <musicXMLid>pluck.guitar.electric</musicXMLid>
-                  <stafftype staffTypePreset="tab5StrCommon">tablature</stafftype>
-                  <!--                  <clef>TAB</clef> -->
-                  <genre>common</genre>
-                  <genre>popular</genre>
-            </Instrument>
             <Instrument id="alto-stick-top">
                   <family>guitars</family>
                   <longName>Alto Stick Top</longName>
@@ -608,15 +546,6 @@
                   <genre>marching</genre>
             </Instrument>
 
-            <Instrument id="alto-stick-top-tablature">
-                  <trackName>Alto Stick Top (Tablature)</trackName>
-                  <init>alto-stick-top</init>
-                  <description>Alto Stick Top (Alto, Tablature)</description>
-                  <stafftype staffTypePreset="tab5StrCommon">tablature</stafftype>
-                  <!--                  <clef>TAB</clef> -->
-                  <genre>common</genre>
-                  <genre>popular</genre>
-            </Instrument>
 <!-- Stick Guitar -->
             <Instrument id="stick-guitar-bottom">
                   <family>guitars</family>
@@ -663,17 +592,6 @@
                   <genre>jazz</genre>
                   <genre>popular</genre>
                   <genre>marching</genre>
-            </Instrument>
-            <Instrument id="stick-guitar-bottom-tablature">
-                  <family>guitars</family>
-                  <trackName>Stick Guitar Bottom (Tablature)</trackName>
-                  <init>stick-guitar-bottom</init>
-                  <description>Stick Guitar Bottom (Classic SG12, Tablature)</description>
-                  <musicXMLid>pluck.guitar.electric</musicXMLid>
-                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
-                  <!--                  <clef>TAB</clef> -->
-                  <genre>common</genre>
-                  <genre>popular</genre>
             </Instrument>
             <Instrument id="stick-guitar-top">
                   <family>guitars</family>
@@ -722,14 +640,5 @@
                   <genre>marching</genre>
             </Instrument>
 
-            <Instrument id="stick-guitar-top-tablature">
-                  <trackName>Stick Guitar Top (Tablature)</trackName>
-                  <init>stick-guitar-top</init>
-                  <description>Stick Guitar Top (Classic SG12, Tablature)</description>
-                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
-                  <!--                  <clef>TAB</clef> -->
-                  <genre>common</genre>
-                  <genre>popular</genre>
-            </Instrument>
       </InstrumentGroup>
 </museScore>
