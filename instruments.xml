@@ -11,20 +11,22 @@
                   <musicXMLid>pluck.guitar.acoustic</musicXMLid>
                   <StringData>
                         <frets>21</frets>
-                        <string>24</string>
-                        <string>31</string>
-                        <string>38</string>
-                        <string>45</string>
-                        <string>52</string>
-                        <string>55</string>
+                        <string>36</string>
+                        <string>43</string>
+                        <string>50</string>
+                        <string>57</string>
+                        <string>64</string>
+                        <string>67</string>
                   </StringData>
-                  <clef>G8vb</clef>
+                  <clef>G</clef>
                   <barlineSpan>1</barlineSpan>
                   <aPitchRange>36-88</aPitchRange>
                   <pPitchRange>36-88</pPitchRange>
-                  <transposeDiatonic>7</transposeDiatonic>
-                  <transposeChromatic>12</transposeChromatic>
-                  
+
+                  <!--
+                  <transposeDiatonic>-7</transposeDiatonic>
+                  <transposeChromatic>-12</transposeChromatic>
+                  -->
                   <singleNoteDynamics>0</singleNoteDynamics>
                   <Channel name="open">
                         <program value="25"/> <!--Acoustic Guitar (steel)-->
@@ -40,43 +42,41 @@
                   <genre>popular</genre>
                   <genre>classroom</genre>
             </Instrument>
-            <Instrument id="guitar-steel-treble-clef-nst">
-                  <family>guitar</family>
-                  <trackName>Acoustic Guitar (NST) (Treble Clef)</trackName>
-                  <longName>Acoustic Guitar (NST)</longName>
+
+
+            <Instrument id="guitar-steel-nst-bassclef">
+                  <family>guitars</family>
+                  <longName>Acoustic Guitar (NST, Bass Clef)</longName>
                   <shortName>Guit.</shortName>
-                  <description>Acoustic Steel-strung Guitar (New Standard Tuning) (Treble Clef)</description>
+                  <description>Acoustic Steel-strung Guitar (New Standard Tuning, Bass Clef)</description>
                   <musicXMLid>pluck.guitar.acoustic</musicXMLid>
                   <StringData>
                         <frets>21</frets>
-                        <string>24</string>
-                        <string>31</string>
-                        <string>38</string>
-                        <string>45</string>
-                        <string>52</string>
-                        <string>55</string>
+                        <string>36</string>
+                        <string>43</string>
+                        <string>50</string>
+                        <string>57</string>
+                        <string>64</string>
+                        <string>67</string>
                   </StringData>
-                  <transposingClef>G</transposingClef>
-                  <concertClef>G8vb</concertClef>
+                  <transposingClef>F</transposingClef>
+                  <concertClef>F8vb</concertClef>
                   <barlineSpan>1</barlineSpan>
                   <aPitchRange>36-88</aPitchRange>
                   <pPitchRange>36-88</pPitchRange>
-                  <transposeDiatonic>-7</transposeDiatonic>
-                  <transposeChromatic>-12</transposeChromatic>
                   <singleNoteDynamics>0</singleNoteDynamics>
-                  <Channel>
+                  <Channel name="open">
                         <program value="25"/> <!--Acoustic Guitar (steel)-->
                   </Channel>
-            </Instrument>
-            <Instrument id="guitar-steel-nst-tablature">
-                  <family>guitars</family>
-                  <trackName>Acoustic Guitar (NST) (Tablature)</trackName>
-                  <init>guitar-steel-nst</init>
-                  <description>Acoustic Steel Strung Guitar (New Standard Tuning) (Tablature)</description>
-                  <musicXMLid>pluck.guitar.acoustic</musicXMLid>
-                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
-                  <!--                  <clef>TAB</clef> -->
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <Channel name="jazz">
+                        <program value="26"/> <!--Electric Guitar (jazz)-->
+                  </Channel>
                   <genre>common</genre>
+                  <genre>jazz</genre>
+                  <genre>popular</genre>
                   <genre>classroom</genre>
             </Instrument>
 
@@ -95,10 +95,12 @@
                         <string>64</string>
                         <string>67</string>
                   </StringData>
-                  <clef>G8vb</clef>
+                  <clef>G</clef>
+                  <barlineSpan>1</barlineSpan>
                   <barlineSpan>1</barlineSpan>
                   <aPitchRange>36-88</aPitchRange>
                   <pPitchRange>36-88</pPitchRange>
+
                   <singleNoteDynamics>0</singleNoteDynamics>
                   <Channel name="open">
                         <program value="27"/> <!--Electric Guitar (clean)-->
@@ -123,10 +125,9 @@
                   <genre>popular</genre>
                   <genre>marching</genre>
             </Instrument>
-            <Instrument id="electric-guitar-treble-clef-nst">
+            <Instrument id="electric-guitar-nst-bassclef">
                   <family>guitars</family>
-                  <trackName>Electric Guitar (NST) (Treble Clef)</trackName>
-                  <longName>Electric Guitar (NST)</longName>
+                  <longName>Electric Guitar (NST, Bass Clef)</longName>
                   <shortName>El. Guit.</shortName>
                   <description>Electric Guitar (New Standard Tuning)</description>
                   <musicXMLid>pluck.guitar.electric</musicXMLid>
@@ -139,28 +140,37 @@
                         <string>64</string>
                         <string>67</string>
                   </StringData>
-                  <transposingClef>G</transposingClef>
-                  <concertClef>G8vb</concertClef>
+                  <clef>F</clef>
+                  <concertClef>Fbvb</concertClef>
+                  <barlineSpan>1</barlineSpan>
                   <barlineSpan>1</barlineSpan>
                   <aPitchRange>36-88</aPitchRange>
                   <pPitchRange>36-88</pPitchRange>
-                  <transposeDiatonic>-7</transposeDiatonic>
-                  <transposeChromatic>-12</transposeChromatic>
+
                   <singleNoteDynamics>0</singleNoteDynamics>
-                  <Channel>
+                  <Channel name="open">
                         <program value="27"/> <!--Electric Guitar (clean)-->
                   </Channel>
-            </Instrument>
-            <Instrument id="electric-guitar-tablature-nst">
-                  <trackName>Electric Guitar (NST) (Tablature)</trackName>
-                  <init>electric-guitar-nst</init>
-                  <description>Electric Guitar (New Standard Tuning) (Tablature)</description>
-                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
-                  <!--                  <clef>TAB</clef> -->
+                  <Channel name="harmonics">
+                        <program value="31"/> <!--Guitar Harmonics-->
+                  </Channel>
+                  <Channel name="distortion">
+                        <program value="30"/> <!--Distortion Guitar-->
+                  </Channel>
+                  <Channel name="overdriven">
+                        <program value="29"/> <!--Overdriven Guitar-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <Channel name="jazz">
+                        <program value="26"/> <!--Electric Guitar (jazz)-->
+                  </Channel>
                   <genre>common</genre>
+                  <genre>jazz</genre>
                   <genre>popular</genre>
+                  <genre>marching</genre>
             </Instrument>
-
             <Instrument id="guitar-nylon-nst">
                   <family>guitars</family>
                   <longName>Classical Guitar (NST)</longName>
@@ -168,7 +178,7 @@
                   <description>Acoustic Nylon-strung Guitar (New Standard Tuning)</description>
                   <musicXMLid>pluck.guitar.nylon-string</musicXMLid>
                   <StringData>
-                        <frets>19</frets>
+                        <frets>21</frets>
                         <string>36</string>
                         <string>43</string>
                         <string>50</string>
@@ -176,10 +186,11 @@
                         <string>64</string>
                         <string>67</string>
                   </StringData>
-                  <clef>G8vb</clef>
+                  <clef>G</clef>
                   <barlineSpan>1</barlineSpan>
-                  <aPitchRange>36-86</aPitchRange>
-                  <pPitchRange>36-86</pPitchRange>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>36-88</aPitchRange>
+                  <pPitchRange>36-88</pPitchRange>
                   <singleNoteDynamics>0</singleNoteDynamics>
                   <Channel name="open">
                         <program value="24"/> <!--Acoustic Guitar (nylon)-->
@@ -190,15 +201,14 @@
                   <genre>common</genre>
                   <genre>popular</genre>
             </Instrument>
-            <Instrument id="guitar-nylon-treble-clef-nst">
+            <Instrument id="guitar-nylon-nst-bassclef">
                   <family>guitars</family>
-                  <trackName>Guitar (NST) (Treble Clef)</trackName>
-                  <longName>Guitar (NST)</longName>
+                  <longName>Classical Guitar (NST, Bass Clef)</longName>
                   <shortName>Guit.</shortName>
-                  <description>Acoustic Nylon-strung Guitar (New Standard Tuning) (Treble Clef)</description>
+                  <description>Acoustic Nylon-strung Guitar (New Standard Tuning)</description>
                   <musicXMLid>pluck.guitar.nylon-string</musicXMLid>
                   <StringData>
-                        <frets>19</frets>
+                        <frets>21</frets>
                         <string>36</string>
                         <string>43</string>
                         <string>50</string>
@@ -206,13 +216,12 @@
                         <string>64</string>
                         <string>67</string>
                   </StringData>
-                  <transposingClef>G</transposingClef>
-                  <concertClef>G8vb</concertClef>
+                  <clef>F</clef>
+                  <concertClef>F8vb</concertClef>
                   <barlineSpan>1</barlineSpan>
-                  <aPitchRange>36-86</aPitchRange>
-                  <pPitchRange>36-86</pPitchRange>
-                  <transposeDiatonic>-7</transposeDiatonic>
-                  <transposeChromatic>-12</transposeChromatic>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>36-88</aPitchRange>
+                  <pPitchRange>36-88</pPitchRange>
                   <singleNoteDynamics>0</singleNoteDynamics>
                   <Channel name="open">
                         <program value="24"/> <!--Acoustic Guitar (nylon)-->
@@ -220,16 +229,8 @@
                   <Channel name="mute">
                         <program value="28"/> <!--Electric Guitar (muted)-->
                   </Channel>
-            </Instrument>
-            <Instrument id="guitar-nylon-tablature-nst">
-                  <family>guitars</family>
-                  <trackName>Classical Guitar (NST) (Tablature)</trackName>
-                  <init>guitar-nylon-nst</init>
-                  <description>Acoustic Nylon Strung Guitar (New Standard Tuning) (Tablature)</description>
-                  <musicXMLid>pluck.guitar.nylon-string</musicXMLid>
-                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
-                  <!--                  <clef>TAB</clef> -->
                   <genre>common</genre>
+                  <genre>popular</genre>
             </Instrument>
       </InstrumentGroup>
       <InstrumentGroup id="strings-stick">
