@@ -10,7 +10,6 @@ modifications were string layout and octave adjustments.
 
 -->
 
-<!-- NST Acoustic -->
             <Instrument id="guitar-steel-nst">
                   <family>guitars</family>
                   <longName>Acoustic Guitar (NST)</longName>
@@ -46,43 +45,6 @@ modifications were string layout and octave adjustments.
                   <genre>classroom</genre>
             </Instrument>
 
-            <Instrument id="guitar-steel-nst-bassclef">
-                  <family>guitars</family>
-                  <longName>Acoustic Guitar (NST, Bass Clef)</longName>
-                  <shortName>Guit.</shortName>
-                  <description>Acoustic Steel-strung Guitar (New Standard Tuning, Bass Clef)</description>
-                  <musicXMLid>pluck.guitar.acoustic</musicXMLid>
-                  <StringData>
-                        <frets>21</frets>
-                        <string>36</string>
-                        <string>43</string>
-                        <string>50</string>
-                        <string>57</string>
-                        <string>64</string>
-                        <string>67</string>
-                  </StringData>
-                  <transposingClef>F</transposingClef>
-                  <concertClef>F8vb</concertClef>
-                  <barlineSpan>1</barlineSpan>
-                  <aPitchRange>36-88</aPitchRange>
-                  <pPitchRange>36-88</pPitchRange>
-                  <singleNoteDynamics>0</singleNoteDynamics>
-                  <Channel name="open">
-                        <program value="25"/> <!--Acoustic Guitar (steel)-->
-                  </Channel>
-                  <Channel name="mute">
-                        <program value="28"/> <!--Electric Guitar (muted)-->
-                  </Channel>
-                  <Channel name="jazz">
-                        <program value="26"/> <!--Electric Guitar (jazz)-->
-                  </Channel>
-                  <genre>common</genre>
-                  <genre>jazz</genre>
-                  <genre>popular</genre>
-                  <genre>classroom</genre>
-            </Instrument>
-
-<!-- NST Electric -->
             <Instrument id="electric-guitar-nst">
                   <family>guitars</family>
                   <longName>Electric Guitar (NST)</longName>
@@ -128,54 +90,7 @@ modifications were string layout and octave adjustments.
                   <genre>popular</genre>
                   <genre>marching</genre>
             </Instrument>
-            <Instrument id="electric-guitar-nst-bassclef">
-                  <family>guitars</family>
-                  <longName>Electric Guitar (NST, Bass Clef)</longName>
-                  <shortName>El. Guit.</shortName>
-                  <description>Electric Guitar (New Standard Tuning)</description>
-                  <musicXMLid>pluck.guitar.electric</musicXMLid>
-                  <StringData>
-                        <frets>21</frets>
-                        <string>36</string>
-                        <string>43</string>
-                        <string>50</string>
-                        <string>57</string>
-                        <string>64</string>
-                        <string>67</string>
-                  </StringData>
-                  <clef>F</clef>
-                  <concertClef>Fbvb</concertClef>
-                  <barlineSpan>1</barlineSpan>
-                  <barlineSpan>1</barlineSpan>
-                  <aPitchRange>36-88</aPitchRange>
-                  <pPitchRange>36-88</pPitchRange>
 
-                  <singleNoteDynamics>0</singleNoteDynamics>
-                  <Channel name="open">
-                        <program value="27"/> <!--Electric Guitar (clean)-->
-                  </Channel>
-                  <Channel name="harmonics">
-                        <program value="31"/> <!--Guitar Harmonics-->
-                  </Channel>
-                  <Channel name="distortion">
-                        <program value="30"/> <!--Distortion Guitar-->
-                  </Channel>
-                  <Channel name="overdriven">
-                        <program value="29"/> <!--Overdriven Guitar-->
-                  </Channel>
-                  <Channel name="mute">
-                        <program value="28"/> <!--Electric Guitar (muted)-->
-                  </Channel>
-                  <Channel name="jazz">
-                        <program value="26"/> <!--Electric Guitar (jazz)-->
-                  </Channel>
-                  <genre>common</genre>
-                  <genre>jazz</genre>
-                  <genre>popular</genre>
-                  <genre>marching</genre>
-            </Instrument>
-
-<!-- NST Classical -->
             <Instrument id="guitar-nylon-nst">
                   <family>guitars</family>
                   <longName>Classical Guitar (NST)</longName>
@@ -192,37 +107,6 @@ modifications were string layout and octave adjustments.
                         <string>67</string>
                   </StringData>
                   <clef>G</clef>
-                  <barlineSpan>1</barlineSpan>
-                  <barlineSpan>1</barlineSpan>
-                  <aPitchRange>36-88</aPitchRange>
-                  <pPitchRange>36-88</pPitchRange>
-                  <singleNoteDynamics>0</singleNoteDynamics>
-                  <Channel name="open">
-                        <program value="24"/> <!--Acoustic Guitar (nylon)-->
-                  </Channel>
-                  <Channel name="mute">
-                        <program value="28"/> <!--Electric Guitar (muted)-->
-                  </Channel>
-                  <genre>common</genre>
-                  <genre>popular</genre>
-            </Instrument>
-            <Instrument id="guitar-nylon-nst-bassclef">
-                  <family>guitars</family>
-                  <longName>Classical Guitar (NST, Bass Clef)</longName>
-                  <shortName>Guit.</shortName>
-                  <description>Acoustic Nylon-strung Guitar (New Standard Tuning)</description>
-                  <musicXMLid>pluck.guitar.nylon-string</musicXMLid>
-                  <StringData>
-                        <frets>21</frets>
-                        <string>36</string>
-                        <string>43</string>
-                        <string>50</string>
-                        <string>57</string>
-                        <string>64</string>
-                        <string>67</string>
-                  </StringData>
-                  <clef>F</clef>
-                  <concertClef>F8vb</concertClef>
                   <barlineSpan>1</barlineSpan>
                   <barlineSpan>1</barlineSpan>
                   <aPitchRange>36-88</aPitchRange>
