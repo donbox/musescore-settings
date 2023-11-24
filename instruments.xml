@@ -2,7 +2,6 @@
 <museScore>
       <InstrumentGroup id="strings-nst">
             <name>Strings - New Standard Tuning</name>
-
 <!-- 
     
 Note that the instrument definitions are cribbed from the stock 
@@ -31,11 +30,6 @@ modifications was string layout and octave adjustments.
                   <barlineSpan>1</barlineSpan>
                   <aPitchRange>36-88</aPitchRange>
                   <pPitchRange>36-88</pPitchRange>
-
-                  <!--
-                  <transposeDiatonic>-7</transposeDiatonic>
-                  <transposeChromatic>-12</transposeChromatic>
-                  -->
                   <singleNoteDynamics>0</singleNoteDynamics>
                   <Channel name="open">
                         <program value="25"/> <!--Acoustic Guitar (steel)-->
@@ -51,7 +45,6 @@ modifications was string layout and octave adjustments.
                   <genre>popular</genre>
                   <genre>classroom</genre>
             </Instrument>
-
 
             <Instrument id="guitar-steel-nst-bassclef">
                   <family>guitars</family>
@@ -183,8 +176,6 @@ modifications was string layout and octave adjustments.
             </Instrument>
 
 <!-- NST Classical -->
-    
-
             <Instrument id="guitar-nylon-nst">
                   <family>guitars</family>
                   <longName>Classical Guitar (NST)</longName>
@@ -248,6 +239,13 @@ modifications was string layout and octave adjustments.
             </Instrument>
       </InstrumentGroup>
       <InstrumentGroup id="strings-stick">
+
+<!--
+
+TODO: validate octaves against a few arrangements from different sources.
+
+-->
+
             <name>Strings - Chapman Stick</name>
 <!-- 10-string Stick -->
             <Instrument id="stick-bottom-10-string">
