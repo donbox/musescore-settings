@@ -2,6 +2,15 @@
 <museScore>
       <InstrumentGroup id="strings-nst">
             <name>Strings - New Standard Tuning</name>
+
+<!-- 
+    
+Note that the instrument definitions are cribbed from the stock 
+instruments for acoustic, electric, and classical guitar.  The only
+modifications was string layout and octave adjustments.
+
+-->
+
 <!-- NST Acoustic -->
             <Instrument id="guitar-steel-nst">
                   <family>guitars</family>
@@ -80,6 +89,7 @@
                   <genre>classroom</genre>
             </Instrument>
 
+<!-- NST Electric -->
             <Instrument id="electric-guitar-nst">
                   <family>guitars</family>
                   <longName>Electric Guitar (NST)</longName>
@@ -171,6 +181,10 @@
                   <genre>popular</genre>
                   <genre>marching</genre>
             </Instrument>
+
+<!-- NST Classical -->
+    
+
             <Instrument id="guitar-nylon-nst">
                   <family>guitars</family>
                   <longName>Classical Guitar (NST)</longName>
